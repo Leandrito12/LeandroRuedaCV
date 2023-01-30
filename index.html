@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Metadatos-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Leandro Rueda">
+  <meta name="description" content="Portafolio de Leandro Rueda">
+  <meta name="keywords" content="HTML, CSS, JavaScript, React">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--Titulo-->
+  <title>Leandro Rueda | Portafolio</title>
+
+  <!--Favicon-->
+  <link rel="icon" href="imagenes/2807415.png" type="image/x-icon">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Mono+One&family=Sofia+Sans:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!--Nav bar-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <i class="bi bi-laptop"></i>
+          <!--<img src="/imagenes/2807415.png" width="50" alt="Logo pagina Web">-->
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--Seccion Principal-->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen" src="imagenes/yo facha.jpg" width="" alt="Foto de Leandro Rueda">
+      <h1>Hola ! Soy Leandro Rueda</h1>
+      <h2>Desarrollador de sitios web y analista de datos </h2>
+    </div>
+    <div class="hero-inferior">
+      <img id="hero-inferior-imagen" class="img-fluid" src="imagenes/shutterstock-10338536170938-620x354-01.jpg"
+        alt="logos de lenguaje, monitor, persona">
+    </div>
+  </section>
+
+  <!--Seccion Sobre Mi-->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Conoce a Leandro Rueda</h2>
+      <p class="seccion-texto">
+        Soy un desarrollador Web iniciando sus pasos en el Front end con aspiracion
+        a desenvolverme como full Stack. Con conocimientos en Administracion de Empresas
+        analisis de datos, y creacion de algoritmos predictivos y un interes profundo en
+        las finanzas, busco generar mi aporte de conocimiento en empresas con una perspectiva
+        mas orientada a negocios</p>
+    </div>
+  </section>
+
+  <!--Seccion Mi Experiencia-->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!--Desarrollo Web-->
+        <div class=" columna col-12 col-md-6">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Desarrollo Web y Data Analisis</p>
+          <p>Desarrolando mi primer proyecto en Front End, mi CV, utilizando HTML, CSS, Bootstrap
+              JS y php
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">Bootstrap</span>
+            <span class="badge text-bg-primary">MYSQL</span>
+            <span class="badge text-bg-primary">Power BI</span>
+            <span class="badge text-bg-primary">Python</span>
+          </div>
+        </div>
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-6">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudios</p>
+          <p>Desarrollo Front End en Argentina Programa (actualmente segunda etapa) <br>
+            Curso full stack - FreeCodeCamp (en curso) <br>
+            Data Analytics - Coderhouse (Terminado) <br>
+            Data Scientist - Coderhouse (En curso) <br>
+            First Certificate
+            University of Cambridge
+            Cambridge ESOL level 1 Certificate in ESOL International <br>
+            Tecnicatura en Administracion de Empresas (En curso) <br>
+            Bachiller en Ciencias Naturales - Instituto Nuestra Señora de Fatima
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Desarrollo Web</span>
+            <span class="badge text-bg-primary">Data Analisis</span>
+            <span class="badge text-bg-primary">FreeCodeCamp</span>
+            <span class="badge text-bg-primary">Argentina Programa</span>
+            <span class="badge text-bg-primary">CoderHouse</span>
+            <span class="badge text-bg-primary">Python</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--Proyectos-->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos Recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos</h3>
+
+    <!--Galeria de Proyectos-->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!--Proyecto 1-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/AQUI PONDRIA MIS PROYECTOS.png" alt="imagen 1">
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-rueda-964651163/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 2-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/SI TAN SOLO TUVIERA UNO.png" alt="imagen 1">
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-rueda-964651163/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 3-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="/imagenes/caputra CV.PNG" alt="imagen 1">
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-rueda-964651163/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 4-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/mi portfolio.png" alt="imagen 1">
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-rueda-964651163/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 5-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/Proyecto_en_construccion.jpg" alt="imagen 1">
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-rueda-964651163/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 6-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/la inteligencia artificial nos quitara el trabajo.png" alt="imagen 1">
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/leandro-rueda-964651163/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+      <button id="btn1" type="button" class="btn btn-info">
+        Ver mas proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!--Testimonios-->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <h3 class="seccion-descripcion">Estos son algunos testimonios</h3>
+    <!--Carrusel-->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/persona1.jpg" alt="foto de cliente">
+            <p class="testimonio-texto">"Tipazo"</p>
+            <div class="testimonio-info">
+              <p class="cliente">jeremy</p>
+              <p class="cargo">Jefe</p>
+            </div>
+          </div>
+
+
+        </div>
+        <!--testimonio 2-->
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/persona3.jpg" alt="foto de cliente">
+            <p class="testimonio-texto">"gran compañero y jugador de equipo"</p>
+            <div class="testimonio-info">
+              <p class="cliente">john</p>
+              <p class="cargo">colega</p>
+            </div>
+          </div>
+        </div>
+        <!--testimonio 3-->
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="imagenes/persona2.jpg" alt="foto de cliente">
+            <p class="testimonio-texto">"respetuoso, curioso y buen trabajador en equipo. cuando no sabia algo
+                                        no se detenia hasta averiguarlo"
+            </p>
+            <div class="testimonio-info">
+              <p class="cliente">juanita</p>
+              <p class="cargo">colega</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!--Contacto-->
+  <section id="contactoLea" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            Hablemos !
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            contactame para iniciar tu proyecto de desarrollo web y hacerlo realidad
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="#div-form" aria-current="page">
+              <button id="boton-despliega-formulario" type="button" onclick="show();">
+                Contacto
+
+                <i class="bi bi-envelope-plus"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Formulario-->
+    <div id="div-form" class="container form">
+      <form action="process-form.php" method="post">
+        <div class="mb-3">
+          <label for="Nombre" class="form-label">Nombre</label>
+          <input type="text" name="nombre" class="form-control" id="Nombre">
+        </div>
+        <div class="mb-3">
+          <label for="Apellido" class="form-label">Apellido</label>
+          <input type="text" name="apellido" class="form-control" id="Apellido">
+        </div>
+        <div class="mb-3">
+          <label for=" email" class="form-label">email</label>
+          <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp">
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" name="validacion" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            confirmo que brindo mis datos voluntariamente
+          </label>
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+
+  </section>
+
+  <!--Pie de Pagina-->
+
+  <footer class="seccion-oscura d-flex flex-column align-items-center justifiy-content-center">
+    <img class="footer-logo" src="imagenes/shutterstock-10338536170938-620x354-01.jpg" alt="logo del portafolio">
+    <p class="footer-texto text-center">Aprendo todos los dias<br>Creemos un proyecto juntos</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/LeandroRueda16" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://github.com/Leandrito12" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/leandro-rueda-964651163/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/leorueda7/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:leandroandresrueda@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">
+      Creado por Leandro Rueda (2023) &#169;
+    </div>
+  </footer>
+
+
+
+
+</body>
+<script src="funcionalidades.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+  integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+</html>
